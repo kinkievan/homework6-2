@@ -10,8 +10,9 @@
 		EC4A51BA1E66AF2B00A63896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A51B91E66AF2B00A63896 /* AppDelegate.swift */; };
 		EC4A51BC1E66AF2B00A63896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A51BB1E66AF2B00A63896 /* ViewController.swift */; };
 		EC4A51BF1E66AF2B00A63896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4A51BD1E66AF2B00A63896 /* Main.storyboard */; };
-		EC4A51C11E66AF2B00A63896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4A51C01E66AF2B00A63896 /* Assets.xcassets */; };
 		EC4A51C41E66AF2B00A63896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4A51C21E66AF2B00A63896 /* LaunchScreen.storyboard */; };
+		EC4A51CC1E66AF7500A63896 /* tipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4A51CB1E66AF7500A63896 /* tipViewController.swift */; };
+		EC4A51CE1E66FFDA00A63896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4A51CD1E66FFDA00A63896 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,10 @@
 		EC4A51B91E66AF2B00A63896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC4A51BB1E66AF2B00A63896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC4A51BE1E66AF2B00A63896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC4A51C01E66AF2B00A63896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC4A51C31E66AF2B00A63896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC4A51C51E66AF2B00A63896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4A51CB1E66AF7500A63896 /* tipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipViewController.swift; sourceTree = "<group>"; };
+		EC4A51CD1E66FFDA00A63896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 		EC4A51B81E66AF2B00A63896 /* homeworktip */ = {
 			isa = PBXGroup;
 			children = (
+				EC4A51CD1E66FFDA00A63896 /* Assets.xcassets */,
 				EC4A51B91E66AF2B00A63896 /* AppDelegate.swift */,
 				EC4A51BB1E66AF2B00A63896 /* ViewController.swift */,
 				EC4A51BD1E66AF2B00A63896 /* Main.storyboard */,
-				EC4A51C01E66AF2B00A63896 /* Assets.xcassets */,
+				EC4A51CB1E66AF7500A63896 /* tipViewController.swift */,
 				EC4A51C21E66AF2B00A63896 /* LaunchScreen.storyboard */,
 				EC4A51C51E66AF2B00A63896 /* Info.plist */,
 			);
@@ -124,7 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC4A51C41E66AF2B00A63896 /* LaunchScreen.storyboard in Resources */,
-				EC4A51C11E66AF2B00A63896 /* Assets.xcassets in Resources */,
+				EC4A51CE1E66FFDA00A63896 /* Assets.xcassets in Resources */,
 				EC4A51BF1E66AF2B00A63896 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +141,7 @@
 			files = (
 				EC4A51BC1E66AF2B00A63896 /* ViewController.swift in Sources */,
 				EC4A51BA1E66AF2B00A63896 /* AppDelegate.swift in Sources */,
+				EC4A51CC1E66AF7500A63896 /* tipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				EC4A51CA1E66AF2B00A63896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
